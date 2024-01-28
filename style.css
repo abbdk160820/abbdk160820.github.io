@@ -1,17 +1,11 @@
 *, *::before, *::after {
     box-sizing: border-box;
   }
-  /*
-    2. Remove default margin
-  */
+ 
   * {
     margin: 0;
   }
-  /*
-    Typographic tweaks!
-    3. Add accessible line-height
-    4. Improve text rendering
-  */
+  
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
@@ -26,10 +20,12 @@
     max-width: 1200px;
     margin: 0 auto;
   }
+
 header > div {
     padding: 12px 0;
 }
-  .flex{
+
+.flex{
     display: flex;
   }
 
